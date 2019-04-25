@@ -38,6 +38,3 @@ apt-get install -y php7.2-mysql
 
 # Restart Apache
 sudo service apache2 restart
-
-# replace Apache2 index with index.php (for testing PHP)
-mv index.html index.html.temp 
